@@ -3,8 +3,8 @@
 
 import sys
 input = sys.stdin.readline
-k = int(input())
 
+k = int(input())
 stack = []
 
 for _ in range(k):
