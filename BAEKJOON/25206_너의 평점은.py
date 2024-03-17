@@ -4,7 +4,6 @@
 # ObjectOrientedProgramming1 3.0 A+
 # 과목명, 학점, 평점(A+ = 4.5)
 # 전공평점 : 전공과목별 (학점 * 과목평점)의 합 / 학점의 총합
-
 import sys
 input = sys.stdin.readline
 
