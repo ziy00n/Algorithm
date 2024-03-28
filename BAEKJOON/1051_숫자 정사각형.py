@@ -20,7 +20,7 @@ for y in range(n):
         # 이동 범위 : 0 ~ 최대 s-1 (인덱스)
         for k in range(s):
             # m범위 넘지 않고, n범위 넘지 않게 탐색
-            if (x+k) < n and (y+k) < m:
+            if (x+k) < m and (y+k) < n:
                 if arr[y][x] == arr[y+k][x] == arr[y][x+k] == arr[y+k][x+k]:
                     area = max(area, (k+1)**2)
 
